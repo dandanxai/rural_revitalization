@@ -1,0 +1,32 @@
+.main_interface_bottom {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column; /* 竖向布局 */
+    justify-content: center; /* 垂直居中 */
+    align-items: center; /* 水平居中 */
+    height: 15vh; /* 根据需要设置高度 */
+    text-align: center; /* 文本居中 */
+    background-image: url(http://images.chinagate.cn/images_wb/ch/2021xiangcunzx/bg_Footer.jpg);
+}
+
+.main_interface_bottom_dt , .main_interface_bottom_dd {
+    margin: 0; /* 去掉默认的外边距 */
+    width: 100%;
+}
+
+hr {
+    width: 100%; /* 可以根据需要调整 */
+    margin: 10px 0; /* 可调整水平分隔线的上下间距 */
+}
+
+.main_interface_bottom_dt_links_span{
+    margin: 0 1%;
+}
+
+.main_interface_bottom_dt_links{
+    text-decoration: none;
+}
+
+.main_interface_bottom_dt_links:hover{
+    text-decoration: underline;
+}
